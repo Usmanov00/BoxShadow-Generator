@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+<section class="shadow-Generator">
+    <div class="container">
+        <div class="row item-center">
+            <div class="col-6">
+                <div class="box"></div>
+            </div>
+            <div class="col-6 b-color">
+                <label for="offsetX">offsetX</label>
+                <input type="range" id="offsetX" class="offsetX" min="-100" max="100" value="0">
+                <label for="offsetY">offsetY</label>
+                <input type="range" id="offsetY" class="offsetY" min="-100" max="100" value="0">
+                <label for="blur">Blur</label>
+                <input type="range" id="blur" class="blur" min="0" max="50">
+                <label for="stretch">Stretch</label>
+                <input type="range" id="stretch" class="stretch" min="0" max="50">
+                <label for="color">color</label>
+                <input type="color"  class="color" id="color">
+                <label for="inset">Outset</label>
+                <input type="radio" class="outset" id="outset" name="insetShadow">
+                <label for="outset">Inset</label>
+                <input type="radio" class="inset" id="inset" name="insetShadow">
+                <div class="output"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
